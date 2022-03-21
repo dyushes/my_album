@@ -10,13 +10,13 @@
             <div class="header_logo">Мой альбом</div>
             <nav class="one">
                 <ul class="topmenu">
-                    <li><a href="./index.php">Главная</a></li>
+                    <li><a href="index.php">Главная</a></li>
                     <li><a href="https://github.com/dyushes?tab=repositories">Проекты</a></li>
                     <li><a href="#">Альбом<i class="fa fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="./chelyabinsk.html">Челябинск</a></li>
-                            <li><a href="./spb.html">Петербург</a></li>
-                            <li><a href="./moskow.html">Москва</a></li>
+                            <li><a href="chelyabinsk.php">Челябинск</a></li>
+                            <li><a href="spb.php">Петербург</a></li>
+                            <li><a href="moskow.php">Москва</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -31,7 +31,7 @@
         <tbody>
         <tr valign="top">
             <td>
-                <img src="assets/img/spb1.jpg" width="300">
+                <img src=<?php include_once 'func.php'; echo get_path('spb1')?> width="300">
             </td>
             <td class="indent_table_chel"></td>
             <td class="table_about">
@@ -45,7 +45,7 @@
 
         <tr valign="top">
             <td>
-                <img src="assets/img/spb2.jpg" width="300">
+                <img src=<?php include_once 'func.php'; echo get_path('spb2')?> width="300">
             </td>
             <td class="indent_table_chel"></td>
             <td class="table_about">
@@ -59,7 +59,7 @@
 
         <tr valign="top">
             <td>
-                <img src="assets/img/spb3.jpg" width="300">
+                <img src=<?php include_once 'func.php'; echo get_path('spb3')?> width="300">
             </td>
             <td class="indent_table_chel"></td>
             <td class="table_about">

@@ -1,7 +1,9 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="./assets/style.css">
         <title>Andrey's album!</title>
+        <php? "./func.php"); ?>
     </head>
 
     <header class="header">
@@ -10,12 +12,12 @@
                 <div class="header_logo">Мой альбом</div>
                 <nav class="one">
                     <ul class="topmenu">
-                        <li><a href="./index.php">Главная</a></li>
+                        <li><a href="index.php">Главная</a></li>
                         <li><a href="https://github.com/dyushes?tab=repositories">Проекты</a></li>
                         <li><a href="#">Альбом<i class="fa fa-angle-down"></i></a>
                             <ul class="submenu">
-                                <li><a href="./chelyabinsk.html">Челябинск</a></li>
-                                <li><a href="./spb.html">Петербург</a></li>
+                                <li><a href="chelyabinsk.php">Челябинск</a></li>
+                                <li><a href="spb.php">Петербург</a></li>
                                 <li><a href="">Москва</a></li>
                             </ul>
                         </li>
